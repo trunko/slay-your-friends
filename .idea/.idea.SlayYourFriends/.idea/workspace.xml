@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="934a0380-9fe1-4786-a54a-ebe05246dfc1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Directory.Build.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SlayYourFriends.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SlayYourFriends.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SlayYourFriends.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SlayYourFriends.sln.DotSettings" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SlayYourFriends/images/card_portraits/big/card.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SlayYourFriends/images/card_portraits/card.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SlayYourFriends/images/powers/big/power.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SlayYourFriends/images/powers/power.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SlayYourFriends/images/relics/big/relic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SlayYourFriends/images/relics/relic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SlayYourFriends/images/relics/relic_outline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SlayYourFriends/localization/eng/ancients.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SlayYourFriends/localization/eng/card_keywords.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SlayYourFriends/localization/eng/cards.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SlayYourFriends/localization/eng/powers.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SlayYourFriends/localization/eng/relics.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SlayYourFriends/localization/eng/static_hover_tips.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SlayYourFriends/mod_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SlayYourFriendsCode/Cards/SlayYourFriendsCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SlayYourFriendsCode/Extensions/StringExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SlayYourFriendsCode/MainFile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SlayYourFriendsCode/Powers/SlayYourFriendsPower.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SlayYourFriendsCode/Relics/SlayYourFriendsRelic.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sts2PathDiscovery.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/export_presets.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project.godot" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3FMvRuHDCxtUrpOpgmT0wsHqO1w" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="934a0380-9fe1-4786-a54a-ebe05246dfc1" name="Changes" comment="" />
+      <created>1781897748011</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1781897748011</updated>
+      <workItem from="1781897749442" duration="88000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
