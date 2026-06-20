@@ -61,6 +61,7 @@
     </ItemGroup>
 
     <ItemGroup>
+        <Folder Include="SlayYourFriends\images\atlases\card_atlas.sprites\ironclad\" />
         <Folder Include="SlayYourFriends\images\card_portraits\big\"/>
         <Folder Include="SlayYourFriends\images\powers\big\"/>
         <Folder Include="SlayYourFriends\images\relics\big\"/>
