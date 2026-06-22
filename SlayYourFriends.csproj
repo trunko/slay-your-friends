@@ -45,25 +45,93 @@
         <Compile Remove="SlayYourFriends/**"/>
         <Compile Remove="materials/**"/>
         <Compile Remove="shaders/**"/>
-        <Compile Remove="images/**"/>
         <EmbeddedResource Remove="SlayYourFriends/**"/>
         <EmbeddedResource Remove="materials/**"/>
         <EmbeddedResource Remove="shaders/**"/>
-        <EmbeddedResource Remove="images/**"/>
     </ItemGroup>
 
     <ItemGroup>
         <None Condition="Exists('Directory.Build.props')" Include="Directory.Build.props"/>
         <None Include=".gitignore"/>
+        <None Include="images\atlases\potion_atlas.sprites\foul_potion.tres" />
+        <None Include="images\potions\sinister_potion.png" />
+        <None Include="images\potions\sinister_potion.png.import" />
+        <None Include="images\potions\sinister_potion_outline.png" />
+        <None Include="images\potions\sinister_potion_outline.png.import" />
         <None Include="SlayYourFriends.json"/>
         <None Include="project.godot"/>
         <None Include="SlayYourFriends/**"/>
     </ItemGroup>
 
     <ItemGroup>
-        <Folder Include="SlayYourFriends\images\card_portraits\big\"/>
+        <Folder Include="images\" />
         <Folder Include="SlayYourFriends\images\powers\big\"/>
         <Folder Include="SlayYourFriends\images\relics\big\"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="images\atlases\potion_outline_atlas.sprites\ashwater.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\attack_potion.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\beetle_juice.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\blessing_of_the_forge.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\block_potion.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\blood_potion.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\bone_brew.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\bottled_potential.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\clarity.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\colorless_potion.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\cosmic_concoction.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\cunning_potion.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\cure_all.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\dexterity_potion.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\distilled_chaos.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\droplet_of_precognition.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\duplicator.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\energy_potion.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\entropic_brew.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\essence_of_darkness.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\explosive_ampoule.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\fairy_in_a_bottle.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\fire_potion.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\flex_potion.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\focus_potion.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\fortifier.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\foul_potion.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\fruit_juice.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\fysh_oil.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\gamblers_brew.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\ghost_in_a_jar.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\gigantification_potion.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\heart_of_iron.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\kings_courage.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\liquid_bronze.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\liquid_memories.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\lucky_tonic.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\mazaleths_gift.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\orobic_acid.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\poison_potion.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\potion_of_binding.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\potion_of_capacity.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\potion_of_doom.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\potion_shaped_rock.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\pot_of_ghouls.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\powdered_demise.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\power_potion.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\radiant_tincture.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\regen_potion.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\shackling_potion.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\ship_in_a_bottle.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\skill_potion.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\snecko_oil.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\soldiers_stew.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\speed_potion.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\stable_serum.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\star_potion.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\strength_potion.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\swift_potion.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\touch_of_insanity.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\vulnerable_potion.tres" />
+      <Content Include="images\atlases\potion_outline_atlas.sprites\weak_potion.tres" />
     </ItemGroup>
 
     <Target Name="CheckDependencyPaths">

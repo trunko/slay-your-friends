@@ -1,0 +1,10 @@
+{
+  "POTION_POPUP.discard": "Discard",
+  "POTION_POPUP.drink": "Use",
+  "POTION_POPUP.throw": "Use",
+  "POTION_RARITY.COMMON": "Unknown",
+  "POTION_RARITY.EVENT": "Unknown",
+  "POTION_RARITY.RARE": "Unknown",
+  "POTION_RARITY.TOKEN": "Unknown",
+  "POTION_RARITY.UNCOMMON": "Unknown"
+}
