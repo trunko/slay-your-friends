@@ -54,10 +54,6 @@
         <None Condition="Exists('Directory.Build.props')" Include="Directory.Build.props"/>
         <None Include=".gitignore"/>
         <None Include="images\atlases\potion_atlas.sprites\foul_potion.tres" />
-        <None Include="images\potions\sinister_potion.png" />
-        <None Include="images\potions\sinister_potion.png.import" />
-        <None Include="images\potions\sinister_potion_outline.png" />
-        <None Include="images\potions\sinister_potion_outline.png.import" />
         <None Include="SlayYourFriends.json"/>
         <None Include="project.godot"/>
         <None Include="SlayYourFriends/**"/>
@@ -65,6 +61,7 @@
 
     <ItemGroup>
         <Folder Include="images\" />
+        <Folder Include="images\potions\" />
         <Folder Include="SlayYourFriends\images\powers\big\"/>
         <Folder Include="SlayYourFriends\images\relics\big\"/>
     </ItemGroup>

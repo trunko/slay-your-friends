@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://choy4t272iel4"
-path="res://.godot/imported/sinister_potion_outline.png-47c47f10a52692a4f5e0253dbf02d15f.ctex"
+path="res://.godot/imported/potion.png-e9e01f71db971ba3ff0bb1130d58fcf1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/potions/sinister_potion_outline.png"
-dest_files=["res://.godot/imported/sinister_potion_outline.png-47c47f10a52692a4f5e0253dbf02d15f.ctex"]
+source_file="res://SlayYourFriends/images/potions/outlines/potion.png"
+dest_files=["res://.godot/imported/potion.png-e9e01f71db971ba3ff0bb1130d58fcf1.ctex"]
 
 [params]
 

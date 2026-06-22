@@ -1,9 +1,11 @@
 using BaseLib.Utils;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
+using MegaCrit.Sts2.Core.Factories;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.CardPools;
+using SlayYourFriends.SlayYourFriendsCode.Potions;
 
 namespace SlayYourFriends.SlayYourFriendsCode.Cards;
 
@@ -19,11 +21,14 @@ public class LowTierCurse() : SlayYourFriendsCard(
     protected override bool ShouldGlowRedInternal => true;
     
     public override int MaxUpgradeLevel => 0;
+    
+    public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Retain];
 
     protected override async Task OnPlay(
         PlayerChoiceContext choiceContext,
         CardPlay play)
     {
+        await PotionCmd.TryToProcure<Grass>(Owner);
         await CreatureCmd.Kill(Owner.Creature);
     }
     
@@ -31,7 +36,10 @@ public class LowTierCurse() : SlayYourFriendsCard(
     {
         if (card.Owner != Owner)
             return true;
-            
-        return (Pile != null ? (Pile.Type != PileType.Hand ? 1 : 0) : 1) != 0 || card is LowTierCurse || autoPlayType != AutoPlayType.None;
+
+        if (Pile == null)
+            return true;
+        
+        return Pile.Type != PileType.Hand || card is LowTierCurse || autoPlayType != AutoPlayType.None;
     }
 }

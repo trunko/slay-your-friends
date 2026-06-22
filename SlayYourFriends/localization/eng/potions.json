@@ -1,4 +1,8 @@
 {
+  "SLAYYOURFRIENDS-SYRUP.description": "My potions are too strong for you, [blue]traveler[/blue].",
+  "SLAYYOURFRIENDS-SYRUP.title": "Sinister Potion",
+  "SLAYYOURFRIENDS-GRASS.description": "Heal for [green]{HealPercent}%[/green] of your Max HP.",
+  "SLAYYOURFRIENDS-GRASS.title": "Grass",
   "ASHWATER.description": "My potions are too strong for you, [blue]traveler[/blue].",
   "ASHWATER.title": "Sinister Potion",
   "ATTACK_POTION.description": "My potions are too strong for you, [blue]traveler[/blue].",
