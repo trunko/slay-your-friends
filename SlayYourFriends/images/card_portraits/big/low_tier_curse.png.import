@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://kf4gdlvj6gvv"
-path="res://.godot/imported/low_tier_card.png-f57c12bca517861a0a93e81742425213.ctex"
+path="res://.godot/imported/low_tier_curse.png-a039fdf15938ce344e1fb92692abc06a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SlayYourFriends/images/card_portraits/big/low_tier_card.png"
-dest_files=["res://.godot/imported/low_tier_card.png-f57c12bca517861a0a93e81742425213.ctex"]
+source_file="res://SlayYourFriends/images/card_portraits/big/low_tier_curse.png"
+dest_files=["res://.godot/imported/low_tier_curse.png-a039fdf15938ce344e1fb92692abc06a.ctex"]
 
 [params]
 
