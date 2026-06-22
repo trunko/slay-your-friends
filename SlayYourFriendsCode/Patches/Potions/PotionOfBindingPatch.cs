@@ -4,9 +4,9 @@ using MegaCrit.Sts2.Core.Models.Potions;
 
 namespace SlayYourFriends.SlayYourFriendsCode.Patches.Potions;
 
-public class GlowwaterPotionPatch
+public class PotionOfBindingPatch
 {
-    [HarmonyPatch(typeof(GlowwaterPotion), nameof(GlowwaterPotion.ExtraHoverTips), MethodType.Getter)]
+    [HarmonyPatch(typeof(PotionOfBinding), nameof(PotionOfBinding.ExtraHoverTips), MethodType.Getter)]
     public class ExtraHoverTipsPatch
     {
         [HarmonyPrefix]
