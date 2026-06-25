@@ -1,8 +1,8 @@
 using BaseLib.Utils;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
-using MegaCrit.Sts2.Core.Factories;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
+using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.CardPools;
 using SlayYourFriends.SlayYourFriendsCode.Potions;
@@ -23,6 +23,8 @@ public class LowTierCurse() : SlayYourFriendsCard(
     public override int MaxUpgradeLevel => 0;
     
     public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Retain];
+
+    protected override IEnumerable<IHoverTip> ExtraHoverTips => [HoverTipFactory.FromPotion<Grass>()];
 
     protected override async Task OnPlay(
         PlayerChoiceContext choiceContext,
