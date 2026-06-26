@@ -6,6 +6,8 @@
   "SLAYYOURFRIENDS-REDIRECT.title": "Redirect",
   "SLAYYOURFRIENDS-TAXES.description": "Tax all other players at a rate of [gold]{rate}%[/gold].",
   "SLAYYOURFRIENDS-TAXES.title": "Taxes",
-  "SLAYYOURFRIENDS-BODYGUARD.description": "Take [gold]{Gold:diff()}[/gold]\nGive Block to player ",
-  "SLAYYOURFRIENDS-BODYGUARD.title":"Bodyguard"
+  "SLAYYOURFRIENDS-BODYGUARD.description": "Take [gold]{Gold:diff()}[/gold]\nGive {Block} block to target player.",
+  "SLAYYOURFRIENDS-BODYGUARD.title": "Bodyguard",
+  "SLAYYOURFRIENDS-MITTS.description": "Choose a player\nGain {StrengthPerTick} [gold]Strength[/gold] for every {StrikeRequirement} [gold]Strikes[/gold] in their deck.",
+  "SLAYYOURFRIENDS-MITTS.title": "Mitts"
 }
