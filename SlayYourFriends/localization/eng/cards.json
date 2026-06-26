@@ -5,5 +5,7 @@
   "SLAYYOURFRIENDS-REDIRECT.description": "Redirect damage you would take to all other players this turn.",
   "SLAYYOURFRIENDS-REDIRECT.title": "Redirect",
   "SLAYYOURFRIENDS-TAXES.description": "Tax all other players at a rate of [gold]{rate}%[/gold].",
-  "SLAYYOURFRIENDS-TAXES.title": "Taxes"
+  "SLAYYOURFRIENDS-TAXES.title": "Taxes",
+  "SLAYYOURFRIENDS-BODYGUARD.description": "Take [gold]{Gold:diff()}[/gold]\nGive Block to player ",
+  "SLAYYOURFRIENDS-BODYGUARD.title":"Bodyguard"
 }
