@@ -1,5 +1,7 @@
 {
   "STOKE.description": "I'm over here stokin' my deck right now...",
-  "SLAYYOURFRIENDS-LOW_TIER_CURSE.description": "YOU SHOULD KILL YOURSELF\n[gold]NOW![/gold]",
-  "SLAYYOURFRIENDS-LOW_TIER_CURSE.title": "Low Tier Curse"
+  "SLAYYOURFRIENDS-LOW_TIER_CURSE.description": "[gold]Touch grass.[/gold]\nYOU SHOULD KILL YOURSELF\n[red]NOW![/red]",
+  "SLAYYOURFRIENDS-LOW_TIER_CURSE.title": "Low Tier Curse",
+  "SLAYYOURFRIENDS-REDIRECT.description": "Redirect damage you would take to all other players this turn.",
+  "SLAYYOURFRIENDS-REDIRECT.title": "Redirect"
 }

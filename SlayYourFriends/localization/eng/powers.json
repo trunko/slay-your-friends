@@ -1,3 +1,8 @@
 {
-  
+  "SLAYYOURFRIENDS-REDIRECT_POWER.description": "Redirects all criticism to other players.",
+  "SLAYYOURFRIENDS-REDIRECT_POWER.smartDescription": "Redirects all criticism to other players.",
+  "SLAYYOURFRIENDS-REDIRECT_POWER.title": "Redirect",
+  "SLAYYOURFRIENDS-REDIRECT_VICTIM_POWER.description": "Take part of the damage intended for another player.",
+  "SLAYYOURFRIENDS-REDIRECT_VICTIM_POWER.smartDescription": "Take part of the damage intended for another player.",
+  "SLAYYOURFRIENDS-REDIRECT_VICTIM_POWER.title": "Redirect Victim"
 }

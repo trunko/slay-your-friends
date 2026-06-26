@@ -62,7 +62,6 @@
     <ItemGroup>
         <Folder Include="images\" />
         <Folder Include="images\potions\" />
-        <Folder Include="SlayYourFriends\images\powers\big\"/>
         <Folder Include="SlayYourFriends\images\relics\big\"/>
     </ItemGroup>
 
