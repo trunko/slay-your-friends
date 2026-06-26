@@ -3,5 +3,7 @@
   "SLAYYOURFRIENDS-LOW_TIER_CURSE.description": "[gold]Touch grass.[/gold]\nYOU SHOULD KILL YOURSELF\n[red]NOW![/red]",
   "SLAYYOURFRIENDS-LOW_TIER_CURSE.title": "Low Tier Curse",
   "SLAYYOURFRIENDS-REDIRECT.description": "Redirect damage you would take to all other players this turn.",
-  "SLAYYOURFRIENDS-REDIRECT.title": "Redirect"
+  "SLAYYOURFRIENDS-REDIRECT.title": "Redirect",
+  "SLAYYOURFRIENDS-MITTS.description": "Choose a player\nGain {StrengthPerTick} [gold]Strength[/gold] for every {StrikeRequirement} [gold]Strikes[/gold] in their deck.",
+  "SLAYYOURFRIENDS-MITTS.title": "Mitts"
 }
